@@ -1,0 +1,93 @@
+@media screen and (max-width: 700px) {
+    .navbar-wide {
+        display: none;
+    }
+    
+    .navbar {
+        margin-left: 5%;
+    }
+}
+
+@media screen and (min-width: 701px) {
+    .navbar-narrow {
+        display: none;
+    }
+}
+
+.navbar {
+    position: fixed;
+    width: 100%;
+    margin-top: -13%;
+    z-index: 999;
+    background-color: #294D7C;
+    padding-top: 5%;
+    padding-bottom: 2%;
+}
+
+.navbar-links-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.navbar-active, .navbar-inactive {
+    text-align: center;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 1.7em;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-active {
+    color: #011638;
+}
+
+.navbar-inactive {
+    color: #87ADC6;
+}
+
+.bar {
+    height: 4px;
+    margin-left: auto;
+    margin-right: auto;
+    width: 120px;
+    background-color: #011638;
+    transition: transform 0.2s ease-in-out;
+}
+
+.navbar-toggle {
+    margin-left: -85%;
+}
+
+.navbar-dropdown {
+    margin-top: 5%;
+    overflow: hidden;
+    transition: max-height 0.4s ease-in-out;
+}
+
+.navbar-active-narrow, .navbar-inactive-narrow {
+    text-align: left;
+    padding-left: 20px;
+    padding-right: 20px;
+    width: 120px;
+    height: 40px;
+    font-size: 1.7em;
+    transition: color 0.2s ease-in-out;
+}
+
+.navbar-active-narrow {
+    color: #011638;
+}
+
+.navbar-inactive-narrow {
+    color: #87ADC6;
+}
+
+.bar-narrow {
+    width: 4px;
+    height: 30px;
+    background-color: #011638;
+    transition: transform 0.2s ease-in-out;
+}

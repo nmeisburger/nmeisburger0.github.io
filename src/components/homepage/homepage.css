@@ -1,0 +1,54 @@
+.homepage {
+    padding-bottom: 7%;
+}
+
+.name_title {
+    margin-top: 10%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.resume-btn {
+    text-align: center;
+    margin-left: 26.5%;
+    margin-top: 5%;
+}
+
+.resume-link {
+    background-color: none;
+    border: 1px solid #87ADC6;
+    transition: transform 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+
+.resume-link-text {
+    display: inline;
+    text-align: center;
+    font-weight: normal;
+}
+
+@media screen and (min-width: 415px){
+    .resume-link {
+        padding: 15px;
+    }
+}
+
+@media screen and (max-width: 415px){
+    .resume-link-text {
+        font-size: 0.8em;
+    }
+
+
+
+    .resume-link {
+        padding: 7px;
+    }
+}
+
+.resume-link:hover {
+    background-color: #011638;
+}
+
+a {
+    text-decoration: none;
+    color: #87ADC6;
+}
