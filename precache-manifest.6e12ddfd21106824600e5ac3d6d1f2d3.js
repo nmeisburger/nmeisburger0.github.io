@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "daf26b163e33fc6a65b141219e02c0f8",
+    "revision": "e22558a6d2903129226593c28671549a",
     "url": "/index.html"
   },
   {
-    "revision": "d82d44b74f069a9035a8",
-    "url": "/static/css/main.a1df4309.chunk.css"
+    "revision": "6fc19fd0c99c44238e4b",
+    "url": "/static/css/main.eb1776ed.chunk.css"
   },
   {
-    "revision": "487a08e3555bb610d533",
-    "url": "/static/js/2.a2b34b51.chunk.js"
+    "revision": "9a3ef655575be091aa1c",
+    "url": "/static/js/2.fc0ad4ba.chunk.js"
   },
   {
-    "revision": "d82d44b74f069a9035a8",
-    "url": "/static/js/main.f2adbe32.chunk.js"
+    "revision": "6fc19fd0c99c44238e4b",
+    "url": "/static/js/main.7833ae16.chunk.js"
   },
   {
     "revision": "42ac5946195a7306e2a5",
@@ -26,6 +26,10 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
     "revision": "26193b59472a98952c5061afa985b759",
     "url": "/static/media/mountains.26193b59.svg"
+  },
+  {
+    "revision": "106244dd75e401a226ac45b1d8eee678",
+    "url": "/static/media/resume.106244dd.pdf"
   },
   {
     "revision": "b117d14899e0628557a6b4c96585670b",
